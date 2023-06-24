@@ -6,10 +6,10 @@
     --text-color: #434455;
     --title-text-color: #2E2F42;
     --subtle-dark-color: #8E8F99;
-    --active-color: #F87719;
+    --active-color:  skyblue;
     --accent-color: #E7E9FC;
     --light-white-color: #F4F4FD;
-    --second-active-color: #F84119;
+    --second-active-color: lightskyblue;
     --card-set-gap: 20px;
     --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -75,6 +75,10 @@
     .nav-list li:not(:last-child){
         margin-right: 40px;
     }
+    .logo-img{
+        left: 45px;
+        top: 11px;
+     }
     .contacts{
        display: flex;
        list-style: none;
@@ -104,40 +108,22 @@
         max-height: 600px;
         margin-left: auto;
         margin-right: auto;
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
+
     }
-    @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .banner{
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
-    }
-  }
+   
     .banner-logo{
         font-size: 56px;
         margin-bottom: 48px;
     }
-    .button{
-        font-weight: 600;
-        line-height: 1.18;
-    }
-    .modal{
-        width: 408px;
-        min-height: 584px;
-    }
     .activities{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Activities-background.jpg);
+
         display: flex;
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
     }
     .target{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Target-background.jpg);
+        
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
@@ -149,28 +135,54 @@
     .target-list li:not(:last-child){
         margin-right: 48px;
     }
-    .teamcards{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Teamcards-background.jpg);
+    .activities-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+        justify-content: center;
+    }
+    .activities-list li {
+        margin-bottom: 32px;
+        
+      }
+        .activities-list img {
+            max-width:552px;
+            height: 552px;
+          }
+    .requirements{
         padding-top: 120px;
         padding-bottom: 120px;
         max-width: 2560px;
         margin-right: auto;
         margin-left: auto;
     }
-
-    .teamcards-list{
+    .requirements-list{
         display: flex;
         margin: 0;
         list-style: none;
-        flex-wrap: nowrap;
         justify-content: initial;   
         padding-bottom: 0;
+        
     }
-    .teamcards-list > .teamcards-member{
+    .card-content{
+        height: 830px;
+        justify-content: initial;
+    }
+    .requirements-text{
+        margin-bottom: 0;
+    }
+    
+    .requirements-list > .requirements-member{
         margin: 0;
     }
-    .teamcards-list > .teamcards-member:not(:first-child) {
+    .requirements-list > .requirements-member {
         margin-left: 24px;
+    }
+    .requirements-list > .requirements-member{
+        margin-top: 16px;
     }
     .footer{
         max-width: 2560px;
@@ -187,42 +199,4 @@
         margin-left: 120px;
         margin-right: 80px;
     }
-    .footer-form-content{
-        margin: 0;
-        text-align: initial;
-    }
-    .input-and-button{
-        display: flex;
-        width: 453px;
-        gap: 24px;
-    }
-    .footer-button{
-        margin-top: 0;
-    }
-    .footer-input{
-        width: 264px;
-    }
-    .museum-one{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumOne-background.jpg);
-        max-width: 2560px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .museum-two{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumTwo-background.jpg);
-        max-width: 2560px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .museum-three{
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumThree-background.jpg);
-        max-width: 2560px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-   .disposition{
-    max-width: 2560px;
-    margin-left: auto;
-    margin-right: auto;
-   }
 }

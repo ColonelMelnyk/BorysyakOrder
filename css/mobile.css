@@ -6,10 +6,10 @@
    --text-color: #434455;
    --title-text-color: #2E2F42;
    --subtle-dark-color: #8E8F99;
-   --active-color: #F87719;
+   --active-color:  skyblue;
    --accent-color: #E7E9FC;
    --light-white-color: #F4F4FD;
-   --second-active-color: #F84119;
+   --second-active-color: lightskyblue;
    --card-set-gap: 20px;
    --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -20,22 +20,19 @@
    --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
    }
 
-@media screen and (max-width: 428px){
-   .social-link-list-menu{
-       gap: initial;
-       justify-content: space-between;
-       
+@media screen and (min-width: 326px) {
+   .logo-img{
+      top: 25px;
    }
-   .image-list-member{
-      max-width: 320px;
+   .logo{
+      padding-left: 55px;
    }
-   .image-card{
-      max-width: 320px;
+}
+@media screen and (min-width: 430px){
+   .logo-img{
+      top: 15px
    }
-   .image{
-      max-width: 320px;
-   }
-   .img-fix{
-      max-width: 320px;
+   .logo{
+      padding-left: 35px;
    }
 }
