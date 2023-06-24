@@ -184,6 +184,20 @@
     .requirements-list > .requirements-member{
         margin-top: 16px;
     }
+    .news{
+             
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .news-img{
+        max-width: 700px;
+    }
+    .disposition{
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .footer{
         max-width: 2560px;
         margin-right: auto;

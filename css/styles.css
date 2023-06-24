@@ -491,7 +491,7 @@ nav{
   }
 /*cards index.html*/
 .requirements{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/Requirements-background.jpg);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/Requirements-background.jpg);
     padding-top: 96px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -565,10 +565,16 @@ nav{
     align-items: center;
 }
 
-
-/*-------------portfolio.html styles-------------*/
-/*section*/
-/* .museum-title{
+.news{
+    background-image: url(/images/News-background.jpg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.news-title{
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -576,83 +582,32 @@ nav{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--light-white-color);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
-.museum-subtitle{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--light-white-color);
-    margin-top: 48px;
-    margin-bottom: 24px;
-}
-.museum-text{
+.news-text{
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     color: var(--light-white-color);
-} */
-/*image-list portfolio.html*/
-/* .image-list{
-    display: flex;
-    margin: 0;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 48px;
-    justify-content: center;
-} 
-
-.image-list > .image-list-member:nth-last-child(-n+6){
-    margin-top: 48px;
-
+    margin-bottom: 64px;
 }
- .image-list-member{
-    list-style-type: none;
-    flex-basis: 428px;
-}
-
-.image-card-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 360px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 8px;
-    border: 1px solid var(--accent-color);
-    padding-left: 16px;
-}
-
-
-.image-title{
+.news-main-title{
     font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 48px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);
-   
+    color: var(--light-white-color);
+    margin-bottom: 24px; 
 }
-.image-type{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-   
+.news-img{
+    max-width: 320px ;
 }
-.image{
-    position: relative;
-    overflow: hidden;
-}
-.image-card{
-    transition: box-shadow var(--animation-duration) var(--animation-timing-function);
-} */
-/* contacts.html styles */
 .disposition{
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/disposition-Background.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
     background-size: cover;
@@ -661,22 +616,22 @@ nav{
 }
 .disposition-title{
     font-weight: 600;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--light-white-color);
+    color: var(--title-text-color);
     margin-bottom: 24px;
     margin-top: 16px;
 }
 .disposition-text{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    color: var(--light-white-color);
+    color: var(--title-text-color);
 }
 /*-------------hover and active styles for both pages, overlays, and stuff-------------*/
 
@@ -708,41 +663,6 @@ nav{
 .footer-social-link:active{
     background: lightskyblue;
 }
-.image-card:hover, 
-.image-card:active{
-    box-shadow: 0px 1px 6px rgb(46 47 66 / 0.08), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
-
-}
-.overlay-portion{
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    padding: 40px 32px;
-    background-color: rgba(46, 47, 66, 0.9);
-    opacity: 0;
-    transform: translateY(100%);
-    transition: transform var(--animation-duration) var(--animation-timing-function),
-    opacity var(--animation-duration) var(--animation-timing-function);
-    }
-.overlay-text{
-     color: var(--light-white-color);
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     
- }
- .image-card:hover .overlay-portion,
- .image-card:active .overlay-portion{
-    opacity: 1;
-    transform: translateY(0);
- }
-
 .width-fix{
     max-width: 100%;
 }

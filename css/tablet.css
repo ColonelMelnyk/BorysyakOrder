@@ -143,6 +143,17 @@
     .requirements-member{
         width:  calc((100% - 24px) / 2);
     }
+    .news{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .news-img{
+        max-width: 500px ;
+    }
+    .disposition{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .footer{
         /* max-width: 768px; */
         margin-right: auto;
@@ -155,21 +166,6 @@
         text-align: initial;
     }
     .footer-socials{
-        margin: 0;
-        margin-left: 24px;
-    }
-    .footer-form-content{
-        text-align: initial;
-        margin-left: 108px;
-    }
-    .input-and-button{
-        display: flex;
-        align-items: center;
-    }
-    .footer-input{
-        width: 264px;
-    }
-    .footer-button{
         margin: 0;
         margin-left: 24px;
     }
