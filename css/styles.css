@@ -328,9 +328,7 @@ nav{
     text-decoration: none;
     transition: background-color var(--animation-duration) var(--animation-timing-function);
 }
-    /* footer form styles */
- /*------------index.html styles-------------*/
-/*banner*/
+ 
 .banner{
     margin: 0 auto;
     background: var(--title-text-color);
@@ -354,32 +352,9 @@ nav{
     color: var(--standard-white-color);
     margin-bottom: 72px;
 }
-/*button index.html*/
-/* .button{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
-    letter-spacing: 0.04em;
-    padding: 16px 32px;
-    color: var(--standard-white-color);
-    border-color: transparent;
-    background: var(--active-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    transition-property: background-color, border, box-shadow;
-    transition-duration: var(--animation-duration);
-    transition-timing-function: var(--animation-timing-function);
 
-} */
-/* modal window index.html*/
-
-/*activities index.html*/
 .activities{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/Activities-background.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/Activities-background.jpg);
     padding-bottom: 120px;
     display: flex;
     padding-top: 120px;
@@ -422,7 +397,7 @@ nav{
 
 /* target index.html */
 .target{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/Target-background.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/Target-background.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
     background-repeat: no-repeat;
@@ -491,7 +466,7 @@ nav{
   }
 /*cards index.html*/
 .requirements{
-    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/Requirements-background.jpg);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/Requirements-background.jpg);
     padding-top: 96px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -566,7 +541,7 @@ nav{
 }
 
 .news{
-    background-image: url(/images/News-background.jpg);
+    background-image: url(../images/News-background.jpg);
     padding-top: 120px;
     padding-bottom: 120px;
     background-repeat: no-repeat;
